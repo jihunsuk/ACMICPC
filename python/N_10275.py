@@ -6,14 +6,14 @@ for i in range(T):
     A = int(str[1])
     B = int(str[2])
     Count = -1
-    n2 = pow(2, N)
+    n2 = int(pow(2, N))
     if A % 2 == 1:
         print(N)
     else:
         while A != 0:
             if A >= n2:
                 A -= n2
-            n2 /= 2
+            n2 = int(n2/2)
             Count += 1
         print(Count)
 
