@@ -1,0 +1,5 @@
+X, Y = map(str, input().split())
+X = ''.join(reversed(X))
+Y = ''.join(reversed(Y))
+ans = str(int(X) + int(Y))
+print(int(ans[::-1]))
