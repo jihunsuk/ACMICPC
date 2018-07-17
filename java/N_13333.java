@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class N_13333 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String str = reader.readLine();
+        Sritng str = reader.readLine();
         int n = Integer.parseInt(str);
         str = reader.readLine();
         String arr[] = str.split(" ");
